@@ -1,0 +1,109 @@
+
+.cont {
+    position :relative;
+    z-index: 1;
+    width: 320px;
+    height: 330px;
+    overflow: hidden;
+    border-radius: 3%;
+  
+}
+
+.carte_button {
+    position :absolute;
+    z-index: 3;
+    width: 100%;
+    height: 100%;
+}
+
+.carte {
+    position :relative;
+    top: -3px;
+    z-index: 20;
+    background-color:white;
+    width: 360;
+    height: 0%;
+    margin: 20px;
+    transition: height 400ms;
+    text-align: center;
+}
+
+.carte_button:hover + .carte {
+    top: 3px;
+    height: 300px;
+}
+.carte:hover  {
+    height: 300px;
+}
+
+.carte:hover  {
+    opacity: 0.9;
+}
+
+@media (max-width:700px) {
+    .cont {
+        position :relative;
+        z-index: 1;
+        width: 320px;
+        height: 300px;
+        overflow: hidden;
+      
+    }
+    .carte_button:hover + .carte {
+        top: 3px;
+        height: 260px;
+    }
+    .carte:hover {
+        height: 260px;
+        display: block;
+    }
+    
+    
+}
+
+.buttonimg {
+    height: 60px;
+    transition: ease-out .5s;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    cursor: pointer;
+  }
+
+  
+.cont:hover .buttonimg {
+    opacity: 1;
+  }
+ 
+
+
+
+  .h5{
+      font-size: 27px;
+      margin-top: 5px;
+      font-weight: 900;
+      color: rgb(12, 8, 1);
+      text-align: center;
+  }
+  .h5:hover{
+      color: rgb(22, 22, 70);
+  }
+
+  .h6{
+    font-size: 16px;
+    text-align: center;
+    color: rgb(133, 129, 124);
+}
+
+
+
+.btn_text{
+color:black;
+}
+
+
+/* Demo purposes only */

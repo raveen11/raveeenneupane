@@ -1,0 +1,68 @@
+/*That's the important part*/
+.side{
+  position: fixed;
+  width: 270px;
+  height: 100%;
+  overflow-y: auto;
+  overflow: hidden;
+  background-color:	#006d77 ;
+  color: white;
+  border-right: 1px solid #343a40;
+}
+
+.logobox{
+  height: 200px;
+  width: 100%;
+  padding: 50px;
+  padding-top: 30px;
+}
+
+.box {
+  background-color:#006d77  ;
+  height: 40px;
+  width: 100%;
+ text-align: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 8px;
+  padding: auto;    
+  background: linear-gradient(to right,#8d8989a9 50%, #006d77  50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all .5s ease-out;
+  margin-top: 3px;
+  
+}
+
+.box:hover {
+  background-position: left bottom;
+}
+
+.text {
+  color:#151518;
+}
+.text:hover{
+  color:#232525;
+}
+
+
+
+.footer{
+  text-align: center;
+  padding: 20px;
+  font-size: 13px;
+}
+
+.text1{
+  font-size: 50px;
+}
+
+
+.try1{
+  background-color:blue;
+  height: 300px;
+  width: 100%;
+}
+.try2{
+}

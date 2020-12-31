@@ -1,0 +1,28 @@
+
+.progress111 {
+	background-color: #b8d0e9;
+	position: relative;
+	margin: 9px 0;
+	height: 8px;
+	width: 400px;
+}
+
+
+@media(max-width:520px){
+    
+.progress111 {
+	background-color: #eeebeb;
+	position: relative;
+	margin: 7px 0;
+	height: 8px;
+	width: 300px;
+}
+
+}
+.progressdone {
+	background: linear-gradient(to left, #011d1f, #022a2c);
+    height: 100%;
+	width: 0;
+	opacity: 0;
+	transition: 2s ease 0s;
+}

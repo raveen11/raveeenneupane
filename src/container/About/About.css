@@ -1,0 +1,109 @@
+
+.image{
+    width: 100%;
+    margin-top: 30px;
+    
+}
+.right{
+    color: wheat;
+    padding-top: 15px;
+    padding: 15px;
+}
+.name{
+    color: #d90429;
+    font-size: 30px;  
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.intro{
+    font-size: 20px;
+    color: black;
+}
+
+
+.me{
+    margin-left: 2rem;
+}
+
+.age{
+    margin-left: 5.45rem;
+}
+
+.nationlity{
+    margin-left: 1.6rem;
+}
+.lang{
+    margin-left: 2.14rem;
+}
+.add{
+    margin-left: 3.05rem;
+
+}
+.free{
+    margin-left: 2.21rem;
+}
+.number{
+    margin-left: 2.63rem;
+}
+
+.res{
+    padding-top: 13px;
+    padding-left: 14px;
+    color: thistle;
+}
+
+.card_icon{
+    margin: 10px;
+}
+.title{
+    color:#5a0707;
+    font-size: 20px;
+}
+.card_body{
+    font-size: 16px;
+    color:wheat;
+    margin-top: 15px;
+}
+
+.btns{
+    margin-top: 10px;
+}
+
+
+.zoom_icon{
+    height: 50px;
+    width: 50px;
+    
+    transition: width 2s, height 2s, transform 2s;
+    
+}
+
+.zoom_icon:hover {
+    width: 55px;
+    height: 55px;
+    transform: rotate(360deg);
+
+  }
+  
+
+
+.middle {
+    transition: 1.5s ease-in-out;
+    opacity: 0;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .left:hover .middle {
+    opacity: 0.5;
+  }
+  
+  
