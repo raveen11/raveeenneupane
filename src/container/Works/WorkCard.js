@@ -4,7 +4,7 @@ import vison from '../../images/vision.png'
 import './Work.css'
 import {Card} from 'react-bootstrap'
 
- const WorkCard = ({id,urls,img,title,click}) => {
+ const WorkCard = ({id,urls,img,title,name}) => {
 
     return (
                 <div className="col-md-4 m-2 ml-auto mr-auto ">
@@ -14,8 +14,8 @@ import {Card} from 'react-bootstrap'
                                 <a href={urls}><img src={vison} className="buttonimg"></img></a>
                         </div>    
                     </div>
-                    <a href={urls} style={{textDecoration:'none'}}><h5 className="h5">Title</h5></a>
-                    <h6 className="h6">Description</h6>
+                    <a href={urls} style={{textDecoration:'none'}}><h5 className="h5">{name}</h5></a>
+                    
                                
                 </div>
             
