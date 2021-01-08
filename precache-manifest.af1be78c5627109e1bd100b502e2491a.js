@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "93f9d2fa8da6969e58ab76f834644000",
+    "revision": "15597fd0fa773b88fa931d4e37acd0e0",
     "url": "/raveeenneupane/index.html"
   },
   {
-    "revision": "312a1cada598ea74e44f",
+    "revision": "4719a04a8d8b2bedae85",
     "url": "/raveeenneupane/static/css/main.6080dd70.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/raveeenneupane/static/js/2.4fd6d70e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "312a1cada598ea74e44f",
-    "url": "/raveeenneupane/static/js/main.543511c0.chunk.js"
+    "revision": "4719a04a8d8b2bedae85",
+    "url": "/raveeenneupane/static/js/main.96ddbeb5.chunk.js"
   },
   {
     "revision": "2aeacf3ca5c149ac2072",
